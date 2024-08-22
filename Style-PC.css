@@ -1,0 +1,145 @@
+@media (max-width:480px){
+  .menu{
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+.container_menu{
+    left: auto;
+    width: 100%;
+    height: 50px;
+    background: #595a5a;
+    padding: 0px 20px;
+}
+
+.menu{
+    max-width: auto;
+    margin: auto;
+    height: 100%; 
+}
+.menu img{
+    width: 150px;
+    margin-top: -50px;
+    margin-left: 100px;
+}
+nav ul{  
+    height: 100%;
+    display: flex;
+}
+
+nav ul li{
+    height: 100%;
+    list-style: none;
+    position: relative;
+    padding: 15px 26px;
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+}
+
+nav ul li a:hover{
+    background: #fff;
+    padding: 3px 3px;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #595a5a;
+}
+
+a{ 
+  text-decoration: none;
+}
+
+    .games {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 20px;
+      padding: 10px;
+    }
+
+    .game {
+      background-color: #333;
+      border-radius: 10px;
+      padding: 20px;
+      position: relative;
+    }
+
+    .game img {
+      margin-left: 0px;
+      margin-top: 10px;
+      width: 100%;
+      height: auto;
+    }
+
+    .game .title {
+      font-size: 24px;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+
+    .game .version {
+      color: #888;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    .game .version img {
+      width: 16px;
+      height: 16px;
+      margin-right: 5px;
+    }
+
+    .game .platform {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background-color: #2d2d2d;
+      padding: 5px 10px;
+      border-radius: 5px;
+      color: #fff;
+      font-size: 14px;
+    }
+
+    .game .genre {
+      position: absolute;
+      top: 30px;
+      right: 10px;
+      background-color: #2d2d2d;
+      padding: 5px 10px;
+      border-radius: 5px;
+      color: #fff;
+      font-size: 14px;
+    }
+
+/* Footer styles */
+
+.container_footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.container_footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container_footer li {
+  margin-right: 20px;
+}
+
+.container_footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container_footer a:hover {
+  color: #ccc;
+}
